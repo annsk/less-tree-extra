@@ -2,4 +2,4 @@
 
 const createFileTree = require('./lib/createFileTree');
 
-module.exports = filePath => createFileTree(filePath);
+module.exports = (filePath, noCache) => createFileTree(filePath, noCache);
